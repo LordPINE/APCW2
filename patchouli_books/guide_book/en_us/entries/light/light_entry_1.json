@@ -1,0 +1,11 @@
+{
+    "name": "Light Magic Introduction",
+    "icon": "botania:petal",
+    "category": "light_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "TEST"
+        }
+    ]
+}

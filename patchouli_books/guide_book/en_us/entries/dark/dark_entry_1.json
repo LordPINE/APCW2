@@ -1,0 +1,11 @@
+{
+    "name": "Dark Magic Introduction",
+    "icon": "evilcraft:dark_gem",
+    "category": "dark_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "TEST"
+        }
+    ]
+}

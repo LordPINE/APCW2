@@ -1,0 +1,44 @@
+{
+  "entries": [
+    {
+      "item": "minecraft:crafting_table|0",
+      "emc": 32
+    },
+    {
+      "item": "extendedcrafting:singularity|0",
+      "emc": 12800000
+    },
+    {
+      "item": "extendedcrafting:singularity|1",
+      "emc": 25600000
+    },
+    {
+      "item": "extendedcrafting:singularity|2",
+      "emc": 86400000
+    },
+    {
+      "item": "extendedcrafting:singularity|3",
+      "emc": 6400000
+    },
+    {
+      "item": "extendedcrafting:singularity|4",
+      "emc": 38400000
+    },
+    {
+      "item": "extendedcrafting:singularity|5",
+      "emc": 204800000
+    },
+    {
+      "item": "extendedcrafting:singularity|6",
+      "emc": 819200000
+    },
+    {
+      "item": "extendedcrafting:singularity|7",
+      "emc": 1638400000
+    },
+    {
+      "item": "extendedcrafting:singularity|16",
+      "emc": 12800000
+    }
+  ]
+}

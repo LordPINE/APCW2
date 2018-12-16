@@ -1,0 +1,24 @@
+{
+    "machine": "gaia_maker",
+    "registryName": "gaia_spirit_creation",
+    "recipeTime": 500,
+
+    "requirements": [
+        {
+            "type": "item",
+            "io-type":"input",
+            "item":"botania:manaresource@5"
+        },
+        {
+            "type": "mana",
+            "io-type": "input",
+            "mana": 30000
+        },
+        {
+            "type": "item",
+            "io-type":"output",
+            "item":"botania:manaresource@5",
+            "amount": 2
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+#Notes to self: Higher power from manastorm, endoflame decays, spectrolus heavily buffed, rosa arcana heavily buffed.

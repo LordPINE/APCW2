@@ -1,0 +1,117 @@
+{
+    "name": "Gaia Spirit Synthesizer",
+    "icon": "botania:manaresource:5",
+    "category": "modular_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The gaia spirit synthesizer is a large multiblock that uses 1/8 of a manapool of mana to create a gaia spirit."
+        },
+        {
+            "type":"multiblock",
+            "name": "Gaia Spirit Synthesizer",
+            "multiblock": {
+                "mapping": {
+                    "B": "astralsorcery:blockmarble[marbletype=bricks]",
+                    "G": "botania:pylon[variant=gaia]",
+                    "R": "astralsorcery:blockmarble[marbletype=runed]",
+                    "P": "astralsorcery:blockmarble[marbletype=pillar]",
+                    "E": "astralsorcery:blockmarble[marbletype=engraved]",
+                    "S": "astralsorcery:blockmarbleslab[half=bottom]",
+                    "T": "botania:storage[variant=terrasteel]",
+                    "L": "astralsorcery:fluidblockliquidstarlight",
+                    "A": "astralsorcery:blockmarble[marbletype=arch]",
+                    "O": "modularmachinery:blockoutputbus[size=tiny]",
+                    "C": "botania:elfglass",
+                    "D": "modularmachinery:blockcontroller[facing=east]",
+                    "M": "modulardiversity:blockmanainputhatch",
+                    "F": "botania:storage[variant=dragonstone]",
+                    "I": "modularmachinery:blockinputbus[size=tiny]"
+                },
+                "pattern": [
+                    [
+                        "       ",
+                        "  S S  ",
+                        " SSBSS ",
+                        "  BIB  ",
+                        " SSBSS ",
+                        "  S S  ",
+                        "       "
+                    ],
+                    [
+                        "SS   SS",
+                        "SE   ES",
+                        "  EPE  ",
+                        "  PCP  ",
+                        "  EPE  ",
+                        "SE   ES",
+                        "SS   SS"
+                    ],
+                    [
+                        "E_____E",
+                        "_______",
+                        "__BMB__",
+                        "__MFM__",
+                        "__BDB__",
+                        "_______",
+                        "E_____E"
+                    ],
+                    [
+                        "P_____P",
+                        "_______",
+                        "__RPR__",
+                        "__PCP__",
+                        "__RPR__",
+                        "_______",
+                        "P_____P"
+                    ],
+                    [
+                        "P_____P",
+                        "_______",
+                        "___P___",
+                        "__PTP__",
+                        "___P___",
+                        "_______",
+                        "P_____P"
+                    ],
+                    [
+                        "P  G  P",
+                        "_______",
+                        "___P___",
+                        "G PCP G",
+                        "___P___",
+                        "_______",
+                        "P  G  P"
+                    ],
+                    [
+                        "P_____P",
+                        "_______",
+                        "_______",
+                        "___O___",
+                        "_______",
+                        "_______",
+                        "P_____P"
+                    ],
+                    [
+                        "P_____P",
+                        "_______",
+                        "_______",
+                        "___0___",
+                        "_______",
+                        "_______",
+                        "P_____P"
+                    ],
+                    [
+                        "RBBBBBR",
+                        "B__A__B",
+                        "B__A__B",
+                        "BAALAAB",
+                        "B__A__B",
+                        "B__A__B",
+                        "RBBBBBR"
+                    ]
+                ]
+            }
+        }
+    ]
+}
