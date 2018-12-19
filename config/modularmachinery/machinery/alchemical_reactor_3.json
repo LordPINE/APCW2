@@ -1,0 +1,2807 @@
+{
+    "registryname": "alchemical_reactor_3",
+    "localizedname": "Empowered Alchemical Reactor",
+    "requires-blueprint": true,
+    "color": "101010",
+    "parts": [
+        {
+            "x": -2,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:alchemical_base@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "embers:stairs_ashen_stone@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:alchemical_base@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "contenttweaker:condensed_void@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "embers:stairs_ashen_stone@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "embers:stairs_ashen_stone@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:alchemical_base@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:alchemical_base@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "embers:stairs_ashen_stone@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:alchemical_stone_2@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:alchemical_stone_2@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "embers:stairs_ashen_stone@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:alchemical_base@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "embers:stairs_ashen_stone@7"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "embers:stairs_ashen_stone@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:alchemical_base@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "embers:stairs_ashen_stone@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "contenttweaker:condensed_void@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "embers:stairs_ashen_stone@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "embers:stairs_ashen_stone@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "embers:stairs_ashen_stone@7"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "embers:stairs_ashen_stone@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:alchemical_base@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "embers:stairs_ashen_stone@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:alchemical_base@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "embers:ashen_stone_slab@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "embers:ashen_stone_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "embers:ashen_stone_slab@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "embers:stairs_ashen_stone@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "contenttweaker:alchemical_base@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "embers:stairs_ashen_stone@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "embers:stairs_ashen_stone@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "contenttweaker:alchemical_base@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "embers:stairs_ashen_stone@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "embers:stairs_ashen_stone@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:alchemical_base@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "embers:ashen_stone_slab@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "embers:stairs_ashen_stone@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "embers:stairs_ashen_stone@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "embers:ashen_stone_slab@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:alchemical_stone_2@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:alchemical_stone_2@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "embers:stairs_ashen_stone@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:alchemical_base@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "embers:stairs_ashen_stone@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "embers:ashen_stone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "embers:stairs_ashen_stone@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "embers:stairs_ashen_stone@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "embers:ashen_stone_slab@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "embers:ashen_stone_slab@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:alchemical_base@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "embers:stairs_ashen_stone@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "embers:ashen_stone_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "embers:stairs_ashen_stone@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "modularmachinery:blockoutputbus@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "embers:ashen_stone_slab@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:alchemical_base@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "embers:stairs_ashen_stone@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:alchemical_base@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "embers:stairs_ashen_stone@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:alchemical_stone_1@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:alchemical_base@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "embers:stairs_ashen_stone@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:alchemical_base@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:alchemical_stone_1@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "embers:stairs_ashen_stone@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "contenttweaker:alchemical_base@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "contenttweaker:alchemical_base@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "embers:stairs_ashen_stone@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "contenttweaker:alchemical_base@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "embers:stairs_ashen_stone@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "embers:stairs_ashen_stone@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:alchemical_stone_2@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:alchemical_base@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:alchemical_base@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "embers:stairs_ashen_stone@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "contenttweaker:alchemical_base@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:alchemical_base@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "embers:stairs_ashen_stone@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:alchemical_stone_2@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "embers:stairs_ashen_stone@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "embers:ashen_stone_slab@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "embers:stairs_ashen_stone@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "embers:stairs_ashen_stone@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "embers:ashen_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "embers:stairs_ashen_stone@4"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:condensed_void@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "embers:stairs_ashen_stone@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "embers:stairs_ashen_stone@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:alchemical_base@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:alchemical_base@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "embers:stairs_ashen_stone@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:alchemical_base@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:alchemical_base@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "embers:stairs_ashen_stone@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:condensed_void@1"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "embers:stairs_ashen_stone@5"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:condensed_void@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "embers:stairs_ashen_stone@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "modularmachinery:blockinputbus@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "soot:alchemy_globe@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "embers:stairs_ashen_stone@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "modularmachinery:blockinputbus@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:condensed_void@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:condensed_void@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "embers:ashen_stone_slab@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "embers:stairs_ashen_stone@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:alchemical_stone_2@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "embers:stairs_ashen_stone@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:alchemical_base@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:alchemical_base@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:alchemical_base@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "embers:stairs_ashen_stone@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "embers:ashen_stone_slab@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:alchemical_stone_2@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "embers:stairs_ashen_stone@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:condensed_void@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "embers:stairs_ashen_stone@7"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:condensed_void@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "embers:stairs_ashen_stone@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "embers:ashen_stone_slab@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "embers:stairs_ashen_stone@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "embers:ashen_stone_slab@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:condensed_void@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 9,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 9,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 9,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "embers:stairs_ashen_stone@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "contenttweaker:condensed_void@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "embers:stairs_ashen_stone@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "embers:stairs_ashen_stone@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "embers:stairs_ashen_stone@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:alchemical_stone_1@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:alchemical_base@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:alchemical_stone_1@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "embers:stairs_ashen_stone@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "embers:stairs_ashen_stone@3"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "contenttweaker:condensed_void@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "embers:stairs_ashen_stone@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "contenttweaker:condensed_void@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "embers:ashen_stone_slab@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "embers:ashen_stone_slab@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "embers:ashen_stone_slab@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "embers:ashen_stone_slab@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "embers:ashen_stone_slab@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "embers:ashen_stone_slab@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:condensed_void@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "embers:ashen_stone_slab@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "embers:stairs_ashen_stone@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "embers:stairs_ashen_stone@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "embers:stairs_ashen_stone@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "embers:stairs_ashen_stone@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "embers:ashen_stone_slab@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "embers:stairs_ashen_stone@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "contenttweaker:condensed_void@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "embers:stairs_ashen_stone@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "embers:stairs_ashen_stone@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "embers:ashen_stone@0"
+            ]
+        }
+    ]}
