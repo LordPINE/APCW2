@@ -17,7 +17,7 @@ val SuperChargedRoseQuartz = <silentgems:gemsuper:45>;
 val PixieDust = <botania:manaresource:8>;
 val PinkNitor = <thaumcraft:nitor_pink>;
 val RedMiddleGem = <thebetweenlands:crimson_middle_gem>;
-val Valonite = <thebetweenlands:items_misc:19>;
+val EnchantedGravitite = <aether_legacy:enchanted_gravitite>;
 val NaturaPylon = <botania:pylon:1>;
 val SinRunes = [<botania:rune:9>,<botania:rune:10>,<botania:rune:11>,<botania:rune:12>,<botania:rune:13>,<botania:rune:14>,<botania:rune:15>] as IItemStack[];
 val SeasonRunes = [<botania:rune:7>,<botania:rune:6>,<botania:rune:5>,<botania:rune:4>] as IItemStack[];
@@ -35,7 +35,7 @@ recipes.remove(GaiaPylon);
 Altar.addTraitAltarRecipe("gaia_pylon_altar", GaiaPylon, 7500, 600,
  [SuperChargedRoseQuartz,PinkNitor,SuperChargedRoseQuartz,PixieDust,NaturaPylon,PixieDust,SuperChargedRoseQuartz,PinkNitor,SuperChargedRoseQuartz, //Inner part
  null,null,null,null,ElementiumIngot,ElementiumIngot,null,null,null,null,ElementiumIngot,ElementiumIngot,RedMiddleGem,null,null,RedMiddleGem, //Outer part
- Valonite,Valonite,Valonite,Valonite],"astralsorcery.constellation.pelotrio"); //Extra items
+ EnchantedGravitite,EnchantedGravitite,EnchantedGravitite,EnchantedGravitite],"astralsorcery.constellation.pelotrio"); //Extra items
 
 for i, item in SinRunes {
     RuneAltar.removeRecipe(item);

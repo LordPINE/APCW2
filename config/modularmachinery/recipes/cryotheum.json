@@ -1,0 +1,15 @@
+{
+    "machine": ["cryotheum_gen"],
+    "registryName": "cryotheum",
+    "recipeTime": 1,
+
+    "requirements": [
+        
+        {
+            "type": "fluid",
+            "fluid": "cryotheum",
+            "io-type": "output",
+            "amount": 1
+        }
+    ]
+}

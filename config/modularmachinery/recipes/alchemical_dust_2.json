@@ -1,0 +1,40 @@
+{
+    "machine": ["alchemical_reactor_2", "alchemical_reactor_3"],
+    "registryName": "alchemical_dust_2",
+    "recipeTime": 200,
+
+    "requirements": [
+        {
+            "type": "item",
+            "io-type":"input",
+            "item":"contenttweaker:resonant_quartz"
+        },
+        {
+            "type": "item",
+            "io-type":"input",
+            "item":"thaumcraft:ingot@2"
+        },
+        {
+            "type": "item",
+            "io-type":"input",
+            "item":"bloodmagic:component@8"
+        },
+        {
+            "type": "item",
+            "io-type":"input",
+            "item":"skyresources:alchemyitemcomponent@2"
+        },
+        {
+            "type": "fluid",
+            "fluid": "alchemical_base",
+            "io-type": "input",
+            "amount": 20000
+        },
+        {
+            "type": "item",
+            "io-type":"output",
+            "item":"skyresources:alchemyitemcomponent@3",
+            "amount": 4
+        }
+    ]
+}

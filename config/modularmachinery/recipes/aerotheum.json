@@ -1,0 +1,15 @@
+{
+    "machine": ["aerotheum_gen"],
+    "registryName": "aerotheum",
+    "recipeTime": 1,
+
+    "requirements": [
+        
+        {
+            "type": "fluid",
+            "fluid": "aerotheum",
+            "io-type": "output",
+            "amount": 1
+        }
+    ]
+}

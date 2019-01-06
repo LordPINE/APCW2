@@ -1,0 +1,15 @@
+{
+    "machine": ["petrotheum_gen"],
+    "registryName": "petrotheum",
+    "recipeTime": 1,
+
+    "requirements": [
+        
+        {
+            "type": "fluid",
+            "fluid": "petrotheum",
+            "io-type": "output",
+            "amount": 1
+        }
+    ]
+}

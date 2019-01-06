@@ -1,0 +1,40 @@
+{
+    "machine": ["alchemical_reactor_1", "alchemical_reactor_2", "alchemical_reactor_3"],
+    "registryName": "alchemical_dust_1",
+    "recipeTime": 100,
+
+    "requirements": [
+        {
+            "type": "item",
+            "io-type":"input",
+            "item":"minecraft:gunpowder"
+        },
+        {
+            "type": "item",
+            "io-type":"input",
+            "item":"minecraft:blaze_powder"
+        },
+        {
+            "type": "item",
+            "io-type":"input",
+            "item":"botania:manaresource@23"
+        },
+        {
+            "type": "item",
+            "io-type":"input",
+            "item":"soulshardstow:materials@2"
+        },
+        {
+            "type": "fluid",
+            "fluid": "alchemical_base",
+            "io-type": "input",
+            "amount": 10000
+        },
+        {
+            "type": "item",
+            "io-type":"output",
+            "item":"skyresources:alchemyitemcomponent@2",
+            "amount": 4
+        }
+    ]
+}

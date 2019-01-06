@@ -18,16 +18,14 @@ val ShiftingStar = <astralsorcery:itemshiftingstar>;
 val ManaPearl = <botania:manaresource:1>;
 val RunicAltar = <botania:runealtar>;
 val ManaSteel = <botania:manaresource>;
-val ManaSteelMaterials = [<twilightforest:fiery_ingot>,
-                          <twilightforest:ironwood_ingot>,
-                          <defiledlands:umbrium_ingot>,
+val ManaSteelMaterials = [<defiledlands:umbrium_ingot>,
                           <thaumcraft:ingot:2>,
                           <thaumcraft:ingot>,
                           <embers:ingot_dawnstone>,
                           <minecraft:iron_ingot>
 ] as IIngredient[];
+val ManaSteelCosts = [6000,3000,1500,1500,12000] as int[];
 val SolarRunes = [<solar:runes:1>,<solar:runes:2>,<solar:runes:3>,<solar:runes:4>] as IItemStack[];
-val ManaSteelCosts = [1500,3000,6000,3000,1500,1500,12000] as int[];
 val BasicRunes = [<botania:rune:1>,<botania:rune>,<botania:rune:2>,<botania:rune:3>] as IItemStack[];
 val StarDust = <astralsorcery:itemcraftingcomponent:2>;
 val ManaPowder = <botania:manaresource:23>;

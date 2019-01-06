@@ -21,6 +21,13 @@ AlchemicalBase.flowingLocation = "contenttweaker:fluids/alchemical_base";
 
 AlchemicalBase.register();
 
+val AlchemicalBase2 = VanillaFactory.createFluid("alchemical_base_empowered", 16777215);
+
+AlchemicalBase2.stillLocation = "contenttweaker:fluids/alchemical_base_empowered";
+AlchemicalBase2.flowingLocation = "contenttweaker:fluids/alchemical_base_empowered";
+
+AlchemicalBase2.register();
+
 val CondensedVoid = VanillaFactory.createFluid("condensed_void", 16777215);
 
 CondensedVoid.stillLocation = "contenttweaker:fluids/condensed_void";

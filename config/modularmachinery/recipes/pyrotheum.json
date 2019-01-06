@@ -1,0 +1,15 @@
+{
+    "machine": ["pyrotheum_gen"],
+    "registryName": "pyrotheum",
+    "recipeTime": 1,
+
+    "requirements": [
+        
+        {
+            "type": "fluid",
+            "fluid": "pyrotheum",
+            "io-type": "output",
+            "amount": 1
+        }
+    ]
+}

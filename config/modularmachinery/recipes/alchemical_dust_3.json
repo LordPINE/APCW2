@@ -1,0 +1,49 @@
+{
+    "machine": ["alchemical_reactor_3"],
+    "registryName": "alchemical_dust_3",
+    "recipeTime": 400,
+
+    "requirements": [
+                {
+            "type": "item",
+            "io-type":"input",
+            "item":"skyresources:alchemyitemcomponent@3"
+        },
+        {
+            "type": "fluid",
+            "fluid": "alchemical_base_empowered",
+            "io-type": "input",
+            "amount": 20000
+        },
+        {
+            "type": "fluid",
+            "fluid": "aerotheum",
+            "io-type": "input",
+            "amount": 1000
+        },
+        {
+            "type": "fluid",
+            "fluid": "petrotheum",
+            "io-type": "input",
+            "amount": 1000
+        },
+        {
+            "type": "fluid",
+            "fluid": "pyrotheum",
+            "io-type": "input",
+            "amount": 1000
+        },
+        {
+            "type": "fluid",
+            "fluid": "cryotheum",
+            "io-type": "input",
+            "amount": 1000
+        },
+        {
+            "type": "item",
+            "io-type":"output",
+            "item":"skyresources:alchemyitemcomponent@4",
+            "amount": 4
+        }
+    ]
+}
