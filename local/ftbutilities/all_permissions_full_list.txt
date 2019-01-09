@@ -1,4 +1,4 @@
-10774 nodes in total
+10767 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -164,8 +164,6 @@ ftbutilities.claims.block.edit.avaritia.double_compressed_crafting_table: OP
 ftbutilities.claims.block.edit.avaritia.extreme_crafting_table: OP
 ftbutilities.claims.block.edit.avaritia.neutron_collector: OP
 ftbutilities.claims.block.edit.avaritia.neutronium_compressor: OP
-ftbutilities.claims.block.edit.avaritiatweaks.gaia_block: OP
-ftbutilities.claims.block.edit.avaritiatweaks.infinitato: OP
 ftbutilities.claims.block.edit.bibliocraft.armorstand: OP
 ftbutilities.claims.block.edit.bibliocraft.bell: OP
 ftbutilities.claims.block.edit.bibliocraft.bookcase: OP
@@ -3072,8 +3070,6 @@ ftbutilities.claims.block.interact.avaritia.double_compressed_crafting_table: OP
 ftbutilities.claims.block.interact.avaritia.extreme_crafting_table: OP
 ftbutilities.claims.block.interact.avaritia.neutron_collector: OP
 ftbutilities.claims.block.interact.avaritia.neutronium_compressor: OP
-ftbutilities.claims.block.interact.avaritiatweaks.gaia_block: OP
-ftbutilities.claims.block.interact.avaritiatweaks.infinitato: OP
 ftbutilities.claims.block.interact.bibliocraft.armorstand: OP
 ftbutilities.claims.block.interact.bibliocraft.bell: OP
 ftbutilities.claims.block.interact.bibliocraft.bookcase: OP
@@ -6192,9 +6188,6 @@ ftbutilities.claims.item.avaritia.resource: ALL
 ftbutilities.claims.item.avaritia.singularity: ALL
 ftbutilities.claims.item.avaritia.skullfire_sword: ALL
 ftbutilities.claims.item.avaritia.ultimate_stew: ALL
-ftbutilities.claims.item.avaritiatweaks.enhancement_crystal: ALL
-ftbutilities.claims.item.avaritiatweaks.gaia_block: ALL
-ftbutilities.claims.item.avaritiatweaks.infinitato: ALL
 ftbutilities.claims.item.base.wrench: ALL
 ftbutilities.claims.item.baubles.ring: ALL
 ftbutilities.claims.item.bibliocraft.armorstand: ALL
@@ -7972,6 +7965,7 @@ ftbutilities.claims.item.inspirations.sugar_cane_seeds: ALL
 ftbutilities.claims.item.inspirations.torch_lever: ALL
 ftbutilities.claims.item.inspirations.wither_crook: ALL
 ftbutilities.claims.item.inspirations.wooden_crook: ALL
+ftbutilities.claims.item.itemblacklist.blacklisted: ALL
 ftbutilities.claims.item.metalchests.chest_upgrade: ALL
 ftbutilities.claims.item.metalchests.hungry_chest_upgrade: ALL
 ftbutilities.claims.item.metalchests.hungry_metal_chest: ALL
@@ -8707,7 +8701,6 @@ ftbutilities.claims.item.psi.cad_battery: ALL
 ftbutilities.claims.item.psi.cad_colorizer_: ALL
 ftbutilities.claims.item.psi.cad_core: ALL
 ftbutilities.claims.item.psi.cad_socket: ALL
-ftbutilities.claims.item.psi.conjured: ALL
 ftbutilities.claims.item.psi.detonator: ALL
 ftbutilities.claims.item.psi.exosuit_controller: ALL
 ftbutilities.claims.item.psi.exosuit_sensor: ALL
@@ -10779,6 +10772,8 @@ ftbutilities.tpa.cross_dim: ALL
 Available command nodes:
 
 command.advancement
+command.aroma1997core.aroma1997
+command.aroma1997core.sleep
 command.astralsorcery.astralsorcery
 command.badwithernocookiereloaded.listen
 command.base.base.recipes.reload
@@ -10920,11 +10915,16 @@ command.hammercore.hc_setloottable
 command.hammercore.hc_timetoticks
 command.hammercore.hc_tpx
 command.help
+command.itemblacklist.blockitem
+command.itemblacklist.unpack
 command.jeresources.profile
 command.journeymap.jtp
 command.kill
 command.laggoggles.laggoggles
 command.locate
+command.login_shield.lgs.setspawn
+command.login_shield.lgs.sit
+command.login_shield.lgs.tp
 command.lttweaker.dumploot
 command.me
 command.modularmachinery.mm-hand
