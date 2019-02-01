@@ -1,0 +1,23 @@
+{
+  "__GLOBAL__": [
+  {
+      "item": "aether_legacy:sun_altar",
+      "damage": "*"
+    },
+    {
+      "item": "aether_legacy:skyroot_sword",
+      "damage": "*"
+    },
+    {
+      "item": "aether_legacy:skyroot_pickaxe",
+      "damage": "*"
+    },
+    {
+      "item": "aether_legacy:skyroot_shovel",
+      "damage": "*"
+    },
+    {
+      "item": "aether_legacy:skyroot_axe",
+      "damage": "*"
+    }]
+}

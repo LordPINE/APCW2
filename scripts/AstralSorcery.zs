@@ -13,7 +13,7 @@ val RockCrystal = <astralsorcery:itemrockcrystalsimple>;
 val StarlightBucket = <forge:bucketfilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000});
 val StarlightAltar = <astralsorcery:blockaltar:1>;
 val DawnStonePlate = <ore:plateDawnstone>;
-val FieryIngot = <ore:ingotFiery>;
+val RemedyBucket = <aether_legacy:skyroot_bucket:3>;
 val Aquamarine = <ore:gemAquamarine>;
 val EngravedMarble = <astralsorcery:blockmarble:5>;
 val ManaRune = <botania:rune:8>;
@@ -32,6 +32,6 @@ Altar.addConstellationAltarRecipe("internal/altar/telescope", Telecope, 3000, 20
 
 Altar.addDiscoveryAltarRecipe("internal/altar/upgrade_tier2", StarlightAltar, 700, 400, [MarblePillar,StarlightBucket,MarblePillar,ManaDiamond,AlchemicalBrass,ManaDiamond,MarblePillar,RockCrystal,MarblePillar]);
 
-Altar.addAttunementAltarRecipe("internal/altar/upgrade_tier3", CelestialAltar, 1400, 1200, [FieryIngot,Aquamarine,FieryIngot,MarblePillar,ManaRune,MarblePillar,EngravedMarble,ThaumiumPlate,EngravedMarble,DawnStonePlate,DawnStonePlate,StarmetalIngot,StarmetalIngot]);
+Altar.addAttunementAltarRecipe("internal/altar/upgrade_tier3", CelestialAltar, 1400, 1200, [RemedyBucket,Aquamarine,RemedyBucket,MarblePillar,ManaRune,MarblePillar,EngravedMarble,ThaumiumPlate,EngravedMarble,DawnStonePlate,DawnStonePlate,StarmetalIngot,StarmetalIngot]);
 
 Altar.addConstellationAltarRecipe("internal/altar/upgrade_tier4", IridescentAltar, 3200, 500, [SeasonRunes[0],GlassLens,SeasonRunes[1],ResonatingGem, CelestialCrystal, ResonatingGem,SeasonRunes[2],GlassLens,SeasonRunes[3], AetheriumPlate, AetheriumPlate, AetheriumPlate, AetheriumPlate, RunedMarble, RunedMarble, RunedMarble, RunedMarble, SootyMarble, SootyMarble, SootyMarble, SootyMarble]);

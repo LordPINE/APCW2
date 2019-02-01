@@ -36,7 +36,7 @@ val ManaRune = <botania:rune:8>;
 val MoonRune = <solar:runes:8>;
 val SunRune = <solar:runes:7>;
 val SeasonRunes = [<botania:rune:7>,<botania:rune:6>,<botania:rune:5>,<botania:rune:4>] as IItemStack[];
-val Valonite = <thebetweenlands:items_misc:19>;
+val EnchantedGravitite = <aether_legacy:enchanted_gravitite>;
 val DawnStone = <ore:ingotDawnstone>;
 val ResonatingGem = <astralsorcery:itemcraftingcomponent:4>;
 
@@ -66,13 +66,13 @@ RuneAltar.removeRecipe(ManaRune);
 RuneAltar.addRecipe(ManaRune, [MoonRune,StarDust,ManaSteel,ManaPearl,SunRune,StarDust,ManaSteel,ManaPearl], 8000);
 
 RuneAltar.removeRecipe(SeasonRunes[0]);
-RuneAltar.addRecipe(SeasonRunes[0], [BasicRunes[2],BasicRunes[1],DawnStone,ResonatingGem,Valonite],8000);
+RuneAltar.addRecipe(SeasonRunes[0], [BasicRunes[2],BasicRunes[1],DawnStone,ResonatingGem,EnchantedGravitite],8000);
 
 RuneAltar.removeRecipe(SeasonRunes[1]);
-RuneAltar.addRecipe(SeasonRunes[1], [BasicRunes[0],BasicRunes[3],DawnStone,ResonatingGem,Valonite],8000);
+RuneAltar.addRecipe(SeasonRunes[1], [BasicRunes[0],BasicRunes[3],DawnStone,ResonatingGem,EnchantedGravitite],8000);
 
 RuneAltar.removeRecipe(SeasonRunes[2]);
-RuneAltar.addRecipe(SeasonRunes[2], [BasicRunes[2],BasicRunes[3],DawnStone,ResonatingGem,Valonite],8000);
+RuneAltar.addRecipe(SeasonRunes[2], [BasicRunes[2],BasicRunes[3],DawnStone,ResonatingGem,EnchantedGravitite],8000);
 
 RuneAltar.removeRecipe(SeasonRunes[3]);
-RuneAltar.addRecipe(SeasonRunes[3], [BasicRunes[0],BasicRunes[1],DawnStone,ResonatingGem,Valonite],8000);
+RuneAltar.addRecipe(SeasonRunes[3], [BasicRunes[0],BasicRunes[1],DawnStone,ResonatingGem,EnchantedGravitite],8000);
