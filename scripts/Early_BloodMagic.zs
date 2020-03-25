@@ -12,7 +12,7 @@ val BloodWaxedCoalBlock = <evilcraft:blood_waxed_coal_block>;
 val T3Orb = <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:magician"});
 val CorruptedIngot = <ore:ingotCorrupted>;
 val BloodInfusionCore = <evilcraft:blood_infusion_core>;
-val ArcaneStone = <thaumcraft:stone_arcane>;
+val ArcaneStone = <embers:ashen_stone>;
 val BloodAltarBlock = <bloodmagic:altar>;
 val DemonWill = <bloodmagic:monster_soul>;
 

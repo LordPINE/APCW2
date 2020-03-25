@@ -2,7 +2,7 @@ import mods.astralsorcery.Altar;
 import crafttweaker.item.IItemStack;
 
 val AlfGlass = <botania:elfglass>;
-val AlchemicalBrass = <thaumcraft:ingot:2>;
+val AlchemicalBrass = <embers:ingot_dawnstone>;
 val LookingGlass = <astralsorcery:itemhandtelescope>;
 val GlassLens = <astralsorcery:itemcraftingcomponent:3>;
 val IronRod = <ore:rodIron>;
@@ -17,7 +17,7 @@ val RemedyBucket = <aether_legacy:skyroot_bucket:3>;
 val Aquamarine = <ore:gemAquamarine>;
 val EngravedMarble = <astralsorcery:blockmarble:5>;
 val ManaRune = <botania:rune:8>;
-val ThaumiumPlate = <ore:plateThaumium>;
+val ThaumiumPlate = <ore:plateDawnstone>;
 val StarmetalIngot = <astralsorcery:itemcraftingcomponent:1>;
 val CelestialAltar = <astralsorcery:blockaltar:2>;
 val IridescentAltar = <astralsorcery:blockaltar:3>;

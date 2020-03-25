@@ -4,7 +4,7 @@ import mods.bloodmagic.BloodAltar;
 
 val EnrichedChaos = <silentgems:craftingmaterial:1>;
 val ChaosEssence = <silentgems:craftingmaterial>;
-val EndimiumDust = <terraqueous:item_main:253>;
+val EndimiumDust = <arcanearchives:item_component_radiantdust>;
 val GemDef = <silentgems:gem>.definition;
 val SuperGemDef = <silentgems:gemsuper>.definition;
 val EnderEssence = <silentgems:craftingmaterial:4>;

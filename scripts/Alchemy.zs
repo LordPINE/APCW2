@@ -39,7 +39,7 @@ val NormalAlchemicalIngots = [
     <embers:ingot_lead>,
     <minecraft:iron_ingot>,
     <minecraft:gold_ingot>,
-    <solar:silver_ingot>
+    <embers:ingot_silver>
 ] as IItemStack[];
 val NormalAlchemicalDusts = [
     <skyresources:orealchdust:3>,
