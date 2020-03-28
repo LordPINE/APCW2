@@ -68,3 +68,17 @@ AlchemicalStone4.setBlockResistance(30.0);
 AlchemicalStone4.setToolLevel(0);
 AlchemicalStone4.setBlockSoundType(<soundtype:stone>);
 AlchemicalStone4.register();
+
+val Aethers = ["luminous", "tenebrous", "terroneous", "igneous", "aqueous", "aeronous"] as string[];
+val Tiers = ["crude", "refined", "enhanced", "turbocharged"] as string[];
+val Rarities = ["COMMON", "UNCOMMON", "RARE", "EPIC"] as string[];
+
+for aether in Aethers {
+    for i, tier in Tiers {
+        var item = VanillaFactory.createItem(aether ~ "_" ~ tier);
+        item.rarity = Rarities[i];
+        item.register();
+    }
+    var plant_matter = VanillaFactory.createItem(aether ~ "_plant_matter");
+    plant_matter.register();
+}
