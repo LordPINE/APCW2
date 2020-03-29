@@ -91,7 +91,7 @@ val PlantMatters = [
     <contenttweaker:tenebrous_plant_matter>,
     <contenttweaker:aqueous_plant_matter>,
     <contenttweaker:igneous_plant_matter>,
-    <contenttweaker:terroneous_plant_matter>,
+    <contenttweaker:terronous_plant_matter>,
     <contenttweaker:aeronous_plant_matter>
 ] as IItemStack[];
 val CrudeAethers = [
@@ -99,7 +99,7 @@ val CrudeAethers = [
     <contenttweaker:tenebrous_crude>,
     <contenttweaker:aqueous_crude>,
     <contenttweaker:igneous_crude>,
-    <contenttweaker:terroneous_crude>,
+    <contenttweaker:terronous_crude>,
     <contenttweaker:aeronous_crude>
 ] as IItemStack[];
 

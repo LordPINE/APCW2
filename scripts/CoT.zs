@@ -69,7 +69,7 @@ AlchemicalStone4.setToolLevel(0);
 AlchemicalStone4.setBlockSoundType(<soundtype:stone>);
 AlchemicalStone4.register();
 
-val Aethers = ["luminous", "tenebrous", "terroneous", "igneous", "aqueous", "aeronous"] as string[];
+val Aethers = ["luminous", "tenebrous", "terronous", "igneous", "aqueous", "aeronous"] as string[];
 val Tiers = ["crude", "refined", "enhanced", "turbocharged"] as string[];
 val Rarities = ["COMMON", "UNCOMMON", "RARE", "EPIC"] as string[];
 
