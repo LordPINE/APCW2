@@ -1,4 +1,5 @@
 import crafttweaker.item.IItemStack;
+import mods.skyresources.condenser;
 
 val to_remove = [<skyresources:alchemy:10>         ,
                  <skyresources:alchemy:7>          ,
@@ -48,3 +49,8 @@ val to_remove = [<skyresources:alchemy:10>         ,
 for item in to_remove {
     recipes.remove(item);
 }
+
+condenser.addRecipe(<ore:ingotTin>.firstItem, 300, <ore:dustLead>.firstItem, <liquid:quicksilver>, 1);
+condenser.addRecipe(<ore:ingotIron>.firstItem, 400, <ore:dustTin>.firstItem, <liquid:quicksilver>, 1);
+condenser.addRecipe(<ore:ingotCopper>.firstItem, 500, <ore:dustIron>.firstItem, <liquid:quicksilver>, 1);
+condenser.addRecipe(<ore:ingotSilver>.firstItem, 600, <ore:dustCopper>.firstItem, <liquid:quicksilver>, 1);

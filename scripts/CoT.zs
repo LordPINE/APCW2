@@ -4,6 +4,7 @@ import mods.contenttweaker.Block;
 import mods.contenttweaker.Fluid;
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.ResourceLocation;
+import mods.contenttweaker.Color;
 
 val CreationCatalyst = VanillaFactory.createItem("creation_catalyst");
 val DestructionCatalyst = VanillaFactory.createItem("destruction_catalyst");
@@ -34,6 +35,13 @@ CondensedVoid.stillLocation = "contenttweaker:fluids/condensed_void";
 CondensedVoid.flowingLocation = "contenttweaker:fluids/condensed_void_flow";
 
 CondensedVoid.register();
+
+val Quicksilver = VanillaFactory.createFluid("quicksilver", Color.fromHex("DDDDDD"));
+
+Quicksilver.density = 10000;
+Quicksilver.viscosity = 1200;
+
+Quicksilver.register();
 
 val ResonantQuartz = VanillaFactory.createItem("resonant_quartz");
 
