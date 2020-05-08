@@ -39,6 +39,46 @@
     {
       "item": "extendedcrafting:singularity|16",
       "emc": 12800000
+    },
+    {
+      "item": "embers:ingot_lead|0",
+      "emc": 8
+    },
+    {
+      "item": "embers:ingot_tin|0",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:iron_ingot|0",
+      "emc": 32
+    },
+    {
+      "item": "embers:ingot_copper|0",
+      "emc": 64
+    },
+    {
+      "item": "embers:ingot_silver|0",
+      "emc": 128
+    },
+    {
+      "item": "minecraft:gold_ingot|0",
+      "emc": 256
+    },
+    {
+      "item": "thermalfoundation:material|134",
+      "emc": 512
+    },
+    {
+      "item": "thermalfoundation:material|136",
+      "emc": 1024
+    },
+    {
+      "item": "minecraft:redstone|0",
+      "emc": 2
+    },
+    {
+      "item": "minecraft:glowstone_dust|0",
+      "emc": 2
     }
   ]
 }
