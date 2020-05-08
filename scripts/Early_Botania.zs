@@ -38,9 +38,6 @@ val EnchantedGravitite = <aether_legacy:enchanted_gravitite>;
 val DawnStone = <ore:ingotDawnstone>;
 val ResonatingGem = <astralsorcery:itemcraftingcomponent:4>;
 
-recipes.remove(PetalApothecary);
-recipes.addShaped(PetalApothecary, [[CobbleSlab, WhitePetal, CobbleSlab],[MarblePillar, TerraCrystal, MarblePillar],[CobbleStone, CobbleStone, CobbleStone]]);
-
 PureDaisy.removeRecipe(LivingWood);
 PureDaisy.addRecipe(InfusedWood, LivingWood);
 
