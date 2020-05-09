@@ -1,56 +1,62 @@
 import crafttweaker.item.IItemStack;
 import mods.skyresources.condenser;
+import mods.skyresources.combustion;
+import mods.jei.JEI;
 
-val to_remove = [<skyresources:alchemy:10>         ,
-                 <skyresources:alchemy:7>          ,
-                 <skyresources:combustionheater:14>,
-                 <skyresources:combustionheater:7> ,
-                 <skyresources:combustionheater:6> ,
-                 <skyresources:combustionheater:3> ,
-                 <skyresources:combustionheater:2> ,
-                 <skyresources:combustionheater:1> ,
-                 <skyresources:combustionheater>   ,
-                 <skyresources:casing:3>           ,
-                 <skyresources:casing:1>           ,
-                 <skyresources:diamondgrinder>     ,
-                 <skyresources:irongrinder>        ,
-                 <skyresources:stonegrinder>       ,
-                 <skyresources:condenser:10>       ,
-                 <skyresources:condenser:7>        ,
-                 <skyresources:condenser:6>        ,
-                 <skyresources:condenser:3>        ,
-                 <skyresources:condenser:1>        ,
-                 <skyresources:condenser:2>        ,
-                 <skyresources:condenser>          ,
-                 <skyresources:alchemy>            ,
-                 <skyresources:alchemy:1>          ,
-                 <skyresources:alchemy:2>          ,
-                 <skyresources:alchemy:3>          ,
-                 <skyresources:alchemy:6>          ,
-                 <skyresources:combustionheater:10>,
-                 <skyresources:heatprovider:14>    ,
-                 <skyresources:heatprovider:10>    ,
-                 <skyresources:heatprovider:6>     ,
-                 <skyresources:heatprovider:7>     ,
-                 <skyresources:heatprovider:3>     ,
-                 <skyresources:heatprovider:2>     ,
-                 <skyresources:heatprovider:1>     ,
-                 <skyresources:heatprovider>       ,
-                 <skyresources:alchemy:14>         ,
-                 <skyresources:casing:7>           ,
-                 <skyresources:condenser:14>       ,
-                 <skyresources:casing:14>          ,
-                 <skyresources:casing:10>          ,
-                 <skyresources:casing:6>           ,
-                 <skyresources:casing:2>           ,
-                 <skyresources:casing>             
+val to_remove = [
+    <skyresources:condenser>,
+    <skyresources:condenser:1>,
+    <skyresources:condenser:6>,
+    <skyresources:condenser:8>,
+    <skyresources:condenser:9>,
+    <skyresources:condenser:10>,
+    <skyresources:condenser:11>,
+    <skyresources:condenser:15>,
+
+    <skyresources:cactuscuttingknife>,
+    <skyresources:stonecuttingknife>,
+    <skyresources:ironcuttingknife>,
+    <skyresources:diamondcuttingknife>,
+    <skyresources:stonegrinder>,
+    <skyresources:irongrinder>,
+    <skyresources:diamondgrinder>,
+
+    <skyresources:combustionheater>,
+    <skyresources:combustionheater:1>,
+    <skyresources:combustionheater:6>,
+    <skyresources:combustionheater:8>,
+    <skyresources:combustionheater:9>,
+    <skyresources:combustionheater:10>,
+    <skyresources:combustionheater:11>,
+    <skyresources:combustionheater:15>,
+
+    <skyresources:heatprovider>,
+    <skyresources:heatprovider:1>,
+    <skyresources:heatprovider:6>,
+    <skyresources:heatprovider:8>,
+    <skyresources:heatprovider:9>,
+    <skyresources:heatprovider:10>,
+    <skyresources:heatprovider:11>,
+    <skyresources:heatprovider:15>,
+
+    <skyresources:casing>,
+    <skyresources:casing:1>,
+    <skyresources:casing:6>,
+    <skyresources:casing:8>,
+    <skyresources:casing:9>,
+    <skyresources:casing:10>,
+    <skyresources:casing:11>,
+    <skyresources:casing:15>
 ] as IItemStack[];
 
 for item in to_remove {
-    recipes.remove(item);
+    JEI.removeAndHide(item);
 }
 
 condenser.addRecipe(<ore:ingotTin>.firstItem, 300, <ore:dustLead>.firstItem, <liquid:quicksilver>, 1);
 condenser.addRecipe(<ore:ingotIron>.firstItem, 400, <ore:dustTin>.firstItem, <liquid:quicksilver>, 1);
 condenser.addRecipe(<ore:ingotCopper>.firstItem, 500, <ore:dustIron>.firstItem, <liquid:quicksilver>, 1);
 condenser.addRecipe(<ore:ingotSilver>.firstItem, 600, <ore:dustCopper>.firstItem, <liquid:quicksilver>, 1);
+
+combustion.addRecipe(<ore:ingotTin>.firstItem, [<ore:dustLead>.firstItem, <minecraft:redstone> * 4], 100);
+combustion.addRecipe(<ore:ingotIron>.firstItem, [<ore:dustTin>.firstItem, <minecraft:redstone> * 4], 120);
