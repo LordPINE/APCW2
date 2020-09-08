@@ -1,7 +1,7 @@
 import mods.embers.Alchemy;
 import mods.modularmachinery.RecipeBuilder;
 
-Alchemy.add(<iceandfire:dragonegg_red>, [<iceandfire:fire_dragon_heart>,<iceandfire:dragonbone>,<iceandfire:dragonbone>,<iceandfire:dragonbone>,<contenttweaker:igneous_turbocharged>], {"dawnstone":192 to 320});
+Alchemy.add(<iceandfire:dragonegg_red>, [<iceandfire:fire_dragon_heart>,<iceandfire:dragonbone>,<iceandfire:dragonbone>,<iceandfire:dragonbone>,<contenttweaker:igneous_turbocharged>], {"igneous":192 to 256, "luminous":64 to 128});
 
 RecipeBuilder.newBuilder("ice_dragon_egg", "aquatic_aether_processor", 200)
     .addStormWeatherRequirement()
