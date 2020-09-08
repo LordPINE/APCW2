@@ -93,6 +93,8 @@ for aether in Aethers {
         item.rarity = Rarities[i];
         item.register();
     }
+    var aspectus = VanillaFactory.createItem(aether ~ "_aspectus");
+    aspectus.register();
     var plant_matter = VanillaFactory.createItem(aether ~ "_plant_matter");
     plant_matter.register();
     var font_core = VanillaFactory.createBlock(aether ~ "_font_core", <blockmaterial:rock>);

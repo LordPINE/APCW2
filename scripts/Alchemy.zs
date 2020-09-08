@@ -6,6 +6,7 @@ import mods.skyresources.combustion;
 import mods.skyresources.fusion;
 import mods.skyresources.catalysts;
 import mods.embers.Melter;
+import mods.embers.Alchemy;
 
 val StarLight = <liquid:astralsorcery.liquidstarlight>;
 val Blood = <liquid:evilcraftblood>;
@@ -22,6 +23,7 @@ val AlchemicalDust2 = <skyresources:alchemyitemcomponent:3>;
 val AlchemicalDust3 = <skyresources:alchemyitemcomponent:4>;
 val AlchemicalDust4 = <skyresources:alchemyitemcomponent:5>;
 val Redstone = <ore:dustRedstone>;
+val Aethers = ["luminous", "tenebrous", "terronous", "igneous", "aqueous", "aeronous"] as string[];
 
 val DisabledAlchemicalDusts = [
     <skyresources:orealchdust:5>,
@@ -105,4 +107,8 @@ furnace.addRecipe(<forge:bucketfilled>.withTag({FluidName: "quicksilver", Amount
 Melter.remove(<liquid:alchemical_redstone> * 144);
 Melter.remove(<liquid:alchemical_redstone> * 1008);
 Melter.remove(<liquid:alchemical_redstone> * 1296);
-Melter.addRecipe(<liquid:quicksilver> * 125, Redstone);
+Melter.add(<liquid:quicksilver> * 125, Redstone);
+
+for aether in Aethers {
+    Alchemy.addAspect(aether, itemUtils.getItem("contenttweaker:" ~ aether ~ "_aspectus"));
+}
