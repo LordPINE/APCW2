@@ -34,7 +34,7 @@ val ManaRune = <botania:rune:8>;
 //val MoonRune = <solar:runes:8>;
 //val SunRune = <solar:runes:7>;
 val SeasonRunes = [<botania:rune:7>,<botania:rune:6>,<botania:rune:5>,<botania:rune:4>] as IItemStack[];
-val EnchantedGravitite = <aether_legacy:enchanted_gravitite>;
+val EnchantedGravitite = <aether:gravitite_plate>;
 val DawnStone = <ore:ingotDawnstone>;
 val ResonatingGem = <astralsorcery:itemcraftingcomponent:4>;
 
