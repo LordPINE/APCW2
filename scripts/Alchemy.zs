@@ -5,6 +5,7 @@ import mods.evilcraft.BloodInfuser;
 import mods.skyresources.combustion;
 import mods.skyresources.fusion;
 import mods.skyresources.catalysts;
+import mods.embers.Melter;
 
 val StarLight = <liquid:astralsorcery.liquidstarlight>;
 val Blood = <liquid:evilcraftblood>;
@@ -20,6 +21,7 @@ val AlchemicalDust1 = <skyresources:alchemyitemcomponent:2>;
 val AlchemicalDust2 = <skyresources:alchemyitemcomponent:3>;
 val AlchemicalDust3 = <skyresources:alchemyitemcomponent:4>;
 val AlchemicalDust4 = <skyresources:alchemyitemcomponent:5>;
+val Redstone = <ore:dustRedstone>;
 
 val DisabledAlchemicalDusts = [
     <skyresources:orealchdust:5>,
@@ -96,3 +98,11 @@ fusion.addRecipe(PlatinumAlchemicalDust, [AlchemicalDust4, PlatinumIngot], 1);
 fusion.removeRecipe(DraconiumAlchemicalDust);
 fusion.addRecipe(DraconiumAlchemicalDust, [AlchemicalDust4, DragonScale], 1);
 fusion.addRecipe(DraconiumAlchemicalDust, [AlchemicalDust4, DraconiumIngot], 1);
+
+recipes.addShapeless("redstone_bucket", <contenttweaker:redstone_bucket>, [<minecraft:bucket>, Redstone, Redstone, Redstone, Redstone, Redstone, Redstone, Redstone, Redstone]);
+furnace.addRecipe(<forge:bucketfilled>.withTag({FluidName: "quicksilver", Amount: 1000}), <contenttweaker:redstone_bucket>);
+
+Melter.remove(<liquid:alchemical_redstone> * 144);
+Melter.remove(<liquid:alchemical_redstone> * 1008);
+Melter.remove(<liquid:alchemical_redstone> * 1296);
+Melter.addRecipe(<liquid:quicksilver> * 125, Redstone);

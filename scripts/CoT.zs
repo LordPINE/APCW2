@@ -101,3 +101,6 @@ for aether in Aethers {
     font_core.setBlockResistance(100000000.0);
     font_core.register();
 }
+
+var RedstoneBucket = VanillaFactory.createItem("redstone_bucket");
+RedstoneBucket.register();
