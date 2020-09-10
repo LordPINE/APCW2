@@ -1,17 +1,15 @@
-//import mods.thaumcraft.ArcaneWorkbench;
-
-val IronPlate = <ore:plateIron>;
-//val ThaumiumPlate = <ore:plateThaumium>;
-//val SimpleMechanism = <thaumcraft:mechanism_simple>;
-//val Alumentum = <thaumcraft:alumentum>;
-val MechanicalCore = <embers:mech_core>;
 val EmberBore = <embers:ember_bore>;
-//val BrassPlate = <ore:plateBrass>;
+val SilverPlate = <ore:plateSilver>;
+val SawBlade = <thermalfoundation:material:657>;
+val MechanicalCore = <embers:mech_core>;
+val IgneousCrude = <contenttweaker:igneous_crude>;
+val LeadPlate = <ore:plateLead>;
+val TinyGoldDust = <mysticalworld:gold_dust_tiny>;
+val IronIngot = <ore:ingotIron>;
 val CaminiteStairs = <embers:stairs_caminite_brick>;
-val MotiveCore = <embers:ancient_motive_core>;
 
-//recipes.remove(MechanicalCore);
-//ArcaneWorkbench.registerShapedRecipe("embers_mechanical_core", "", 50, [<aspect:ignis>, <aspect:ordo>], MechanicalCore, [[IronPlate,ThaumiumPlate,IronPlate],[SimpleMechanism,Alumentum,SimpleMechanism],[IronPlate,ThaumiumPlate,IronPlate]]);
+recipes.remove(MechanicalCore);
+recipes.addShaped(MechanicalCore, [[IronIngot,IgneousCrude,IronIngot],[LeadPlate,TinyGoldDust,LeadPlate],[IronIngot,LeadPlate,IronIngot]]);
 
-//recipes.remove(EmberBore);
-//ArcaneWorkbench.registerShapedRecipe("embers_ember_bore", "", 150, [<aspect:ignis>, <aspect:perditio>], EmberBore, [[CaminiteStairs,MotiveCore,CaminiteStairs],[SimpleMechanism,MechanicalCore,SimpleMechanism],[BrassPlate,BrassPlate,BrassPlate]]);
+recipes.remove(EmberBore);
+recipes.addShaped(EmberBore, [[CaminiteStairs, IgneousCrude, CaminiteStairs],[SilverPlate, MechanicalCore, SilverPlate],[SawBlade, SawBlade, SawBlade]]);
