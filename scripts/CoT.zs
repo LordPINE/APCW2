@@ -91,6 +91,9 @@ for aether in Aethers {
     for i, tier in Tiers {
         var item = VanillaFactory.createItem(aether ~ "_" ~ tier);
         item.rarity = Rarities[i];
+        if (tier == "enhanced") {
+            item.glowing = true;
+        }
         item.register();
     }
     var aspectus = VanillaFactory.createItem(aether ~ "_aspectus");
