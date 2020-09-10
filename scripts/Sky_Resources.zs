@@ -52,11 +52,3 @@ val to_remove = [
 for item in to_remove {
     JEI.removeAndHide(item);
 }
-
-condenser.addRecipe(<ore:ingotTin>.firstItem, 300, <ore:dustLead>.firstItem, <liquid:quicksilver>, 1);
-condenser.addRecipe(<ore:ingotIron>.firstItem, 400, <ore:dustTin>.firstItem, <liquid:quicksilver>, 1);
-condenser.addRecipe(<ore:ingotCopper>.firstItem, 500, <ore:dustIron>.firstItem, <liquid:quicksilver>, 1);
-condenser.addRecipe(<ore:ingotSilver>.firstItem, 600, <ore:dustCopper>.firstItem, <liquid:quicksilver>, 1);
-
-combustion.addRecipe(<ore:ingotTin>.firstItem, [<ore:dustLead>.firstItem, <minecraft:redstone> * 4], 100);
-combustion.addRecipe(<ore:ingotIron>.firstItem, [<ore:dustTin>.firstItem, <minecraft:redstone> * 4], 120);

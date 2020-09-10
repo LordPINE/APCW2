@@ -5,8 +5,11 @@ import mods.evilcraft.BloodInfuser;
 import mods.skyresources.combustion;
 import mods.skyresources.fusion;
 import mods.skyresources.catalysts;
+import mods.skyresources.condenser;
 import mods.embers.Melter;
 import mods.embers.Alchemy;
+import mods.roots.Mortar;
+import mods.astralsorcery.Grindstone;
 
 val StarLight = <liquid:astralsorcery.liquidstarlight>;
 val Blood = <liquid:evilcraftblood>;
@@ -24,6 +27,8 @@ val AlchemicalDust3 = <skyresources:alchemyitemcomponent:4>;
 val AlchemicalDust4 = <skyresources:alchemyitemcomponent:5>;
 val Redstone = <ore:dustRedstone>;
 val Aethers = ["luminous", "tenebrous", "terronous", "igneous", "aqueous", "aeronous"] as string[];
+val IgneousRefined = <contenttweaker:igneous_refined>;
+val IgneousCrude = <contenttweaker:igneous_crude>;
 
 val DisabledAlchemicalDusts = [
     <skyresources:orealchdust:5>,
@@ -112,3 +117,15 @@ Melter.add(<liquid:quicksilver> * 125, Redstone);
 for aether in Aethers {
     Alchemy.addAspect(aether, itemUtils.getItem("contenttweaker:" ~ aether ~ "_aspectus"));
 }
+
+Mortar.addRecipe(<embers:dust_ember>, [<embers:shard_ember>]);
+Grindstone.addRecipe(<embers:shard_ember>, <embers:dust_ember>);
+combustion.addRecipe(IgneousRefined, [IgneousCrude, <embers:dust_ember> * 4], 200);
+
+condenser.addRecipe(<ore:ingotTin>.firstItem, 300, <ore:dustLead>.firstItem, <liquid:quicksilver>, 1);
+condenser.addRecipe(<ore:ingotIron>.firstItem, 400, <ore:dustTin>.firstItem, <liquid:quicksilver>, 1);
+condenser.addRecipe(<ore:ingotCopper>.firstItem, 500, <ore:dustIron>.firstItem, <liquid:quicksilver>, 1);
+condenser.addRecipe(<ore:ingotSilver>.firstItem, 600, <ore:dustCopper>.firstItem, <liquid:quicksilver>, 1);
+
+combustion.addRecipe(<ore:ingotTin>.firstItem, [<ore:dustLead>.firstItem, <minecraft:redstone> * 4], 100);
+combustion.addRecipe(<ore:ingotIron>.firstItem, [<ore:dustTin>.firstItem, <minecraft:redstone> * 4], 120);
